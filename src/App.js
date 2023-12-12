@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Header from './header';
+import Home from './home';
+import Contact from './contact';
+import About from './about';
 
-export default App;
+const Main = ()=>{
+    return <>
+        <BrowserRouter>
+        <Header /> 
+        <Routes>
+
+        <Route exact path='/' Component={Home} />    
+        <Route exact path='/about' Component={About} />    
+        <Route exact path='/contact' Component={Contact} />    
+        </Routes>
+        
+        </BrowserRouter>
+    </>
+};
+
+export default Main;
+
+// https://github.com/projection13/projection.git
