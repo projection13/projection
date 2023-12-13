@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/projection13/projection.git/static/css/main.2dbcc10b.css",
+    "main.js": "/projection13/projection.git/static/js/main.3cc94c36.js",
+    "static/media/banner-right-image.png": "/projection13/projection.git/static/media/banner-right-image.6bdf2ab3dd4478a59ebf.png",
+    "index.html": "/projection13/projection.git/index.html",
+    "main.2dbcc10b.css.map": "/projection13/projection.git/static/css/main.2dbcc10b.css.map",
+    "main.3cc94c36.js.map": "/projection13/projection.git/static/js/main.3cc94c36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dbcc10b.css",
+    "static/js/main.3cc94c36.js"
+  ]
+}
